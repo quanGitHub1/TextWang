@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BDE9880A43A9A6A0B11B17D /* libPods-textOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DE17C3D48B6E9E9A198928 /* libPods-textOne.a */; };
 		7AA438051EEBE01100F82E46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA438041EEBE01100F82E46 /* main.m */; };
 		7AA438081EEBE01100F82E46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA438071EEBE01100F82E46 /* AppDelegate.m */; };
 		7AA4380B1EEBE01100F82E46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4380A1EEBE01100F82E46 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49DE17C3D48B6E9E9A198928 /* libPods-textOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-textOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E145ED6E4E72CF16AEFCA0F /* Pods-textOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-textOne/Pods-textOne.release.xcconfig"; sourceTree = "<group>"; };
 		7AA438001EEBE01100F82E46 /* textOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA438041EEBE01100F82E46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7AA438061EEBE01100F82E46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		7AA438241EEBE01100F82E46 /* textOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA438281EEBE01100F82E46 /* textOneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textOneUITests.m; sourceTree = "<group>"; };
 		7AA4382A1EEBE01100F82E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED60B39D7052B164EE346DC4 /* Pods-textOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-textOne/Pods-textOne.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDE9880A43A9A6A0B11B17D /* libPods-textOne.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25F694FF2F05C68C5D079C15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49DE17C3D48B6E9E9A198928 /* libPods-textOne.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7AA437F71EEBE01100F82E46 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +98,8 @@
 				7AA4381C1EEBE01100F82E46 /* textOneTests */,
 				7AA438271EEBE01100F82E46 /* textOneUITests */,
 				7AA438011EEBE01100F82E46 /* Products */,
+				DC31D46C8DBCE6E0D05155C3 /* Pods */,
+				25F694FF2F05C68C5D079C15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +155,15 @@
 			path = textOneUITests;
 			sourceTree = "<group>";
 		};
+		DC31D46C8DBCE6E0D05155C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED60B39D7052B164EE346DC4 /* Pods-textOne.debug.xcconfig */,
+				5E145ED6E4E72CF16AEFCA0F /* Pods-textOne.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AA4382D1EEBE01100F82E46 /* Build configuration list for PBXNativeTarget "textOne" */;
 			buildPhases = (
+				6815DE03F6173FA7C69B9E68 /* [CP] Check Pods Manifest.lock */,
 				7AA437FC1EEBE01100F82E46 /* Sources */,
 				7AA437FD1EEBE01100F82E46 /* Frameworks */,
 				7AA437FE1EEBE01100F82E46 /* Resources */,
+				54684497F68C178532945CBE /* [CP] Embed Pods Frameworks */,
+				E817FF21C5D1038AB497C3FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +234,7 @@
 				TargetAttributes = {
 					7AA437FF1EEBE01100F82E46 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ML77R3AZAP;
 						ProvisioningStyle = Automatic;
 					};
 					7AA438181EEBE01100F82E46 = {
@@ -267,6 +295,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54684497F68C178532945CBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-textOne/Pods-textOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6815DE03F6173FA7C69B9E68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E817FF21C5D1038AB497C3FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-textOne/Pods-textOne-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7AA437FC1EEBE01100F82E46 /* Sources */ = {
@@ -424,23 +500,33 @@
 		};
 		7AA4382E1EEBE01100F82E46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED60B39D7052B164EE346DC4 /* Pods-textOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ML77R3AZAP;
 				INFOPLIST_FILE = textOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LEFiance.textOne;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeFinance.iphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		7AA4382F1EEBE01100F82E46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E145ED6E4E72CF16AEFCA0F /* Pods-textOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ML77R3AZAP;
 				INFOPLIST_FILE = textOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LEFiance.textOne;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeFinance.iphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -509,6 +595,7 @@
 				7AA4382F1EEBE01100F82E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AA438301EEBE01100F82E46 /* Build configuration list for PBXNativeTarget "textOneTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +604,7 @@
 				7AA438321EEBE01100F82E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AA438331EEBE01100F82E46 /* Build configuration list for PBXNativeTarget "textOneUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +613,7 @@
 				7AA438351EEBE01100F82E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
