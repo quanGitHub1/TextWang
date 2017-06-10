@@ -235,7 +235,7 @@
 					7AA437FF1EEBE01100F82E46 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = ML77R3AZAP;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					7AA438181EEBE01100F82E46 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -510,7 +510,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LeFinance.iphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "7ac1df0f-101c-4a12-a395-58193ccfdfc2";
+				PROVISIONING_PROFILE_SPECIFIER = LeFinance.provisioning;
 			};
 			name = Debug;
 		};
@@ -526,7 +527,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LeFinance.iphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "7ac1df0f-101c-4a12-a395-58193ccfdfc2";
+				PROVISIONING_PROFILE_SPECIFIER = LeFinance.provisioning;
 			};
 			name = Release;
 		};

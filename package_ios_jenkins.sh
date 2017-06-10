@@ -58,10 +58,7 @@ echo "profile: ${provisioning_profile}"
 #cd到工程根目录
 cd $project_path
 #pod 安装
-if [ $isPod = 1 ];then
-export LC_ALL="en_US.UTF-8"
-pod install --verbose --no-repo-update
-fi
+pod install
 
 #build
 #判断是workspace还是project，执行不同的参数命令
