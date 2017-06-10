@@ -503,15 +503,15 @@
 			baseConfigurationReference = ED60B39D7052B164EE346DC4 /* Pods-textOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: LeFinance Information&Technology Co.,Ltd (ML77R3AZAP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: LeFinance Information&Technology Co.,Ltd (ML77R3AZAP)";
 				DEVELOPMENT_TEAM = ML77R3AZAP;
 				INFOPLIST_FILE = textOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LeFinance.iphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7ac1df0f-101c-4a12-a395-58193ccfdfc2";
-				PROVISIONING_PROFILE_SPECIFIER = LeFinance.provisioning;
+				PROVISIONING_PROFILE = "8fcb088d-991a-437d-9e3c-f66bc59ece47";
+				PROVISIONING_PROFILE_SPECIFIER = LeFineIphone;
 			};
 			name = Debug;
 		};
@@ -520,15 +520,15 @@
 			baseConfigurationReference = 5E145ED6E4E72CF16AEFCA0F /* Pods-textOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: LeFinance Information&Technology Co.,Ltd (ML77R3AZAP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: LeFinance Information&Technology Co.,Ltd (ML77R3AZAP)";
 				DEVELOPMENT_TEAM = ML77R3AZAP;
 				INFOPLIST_FILE = textOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LeFinance.iphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7ac1df0f-101c-4a12-a395-58193ccfdfc2";
-				PROVISIONING_PROFILE_SPECIFIER = LeFinance.provisioning;
+				PROVISIONING_PROFILE = "8fcb088d-991a-437d-9e3c-f66bc59ece47";
+				PROVISIONING_PROFILE_SPECIFIER = LeFineIphone;
 			};
 			name = Release;
 		};
